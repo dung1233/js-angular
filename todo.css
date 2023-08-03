@@ -1,0 +1,33 @@
+/* Tùy chỉnh bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Tùy chỉnh ô tìm kiếm */
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* Tùy chỉnh nút Thêm */
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Tùy chỉnh nút Thêm khi hover */
+button:hover {
+    background-color: #45a049;
+}
